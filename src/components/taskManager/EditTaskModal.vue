@@ -42,7 +42,7 @@ function submit() {
   >
     <div>
       <form role="form" @submit.prevent="submit">
-        <div class="w-full md:w-1/3 px-3">
+        <div class="w-full px-3">
           <label
             class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
             :for="title"
@@ -56,7 +56,7 @@ function submit() {
             placeholder="Dodaj tytuł"
           />
         </div>
-        <div class="w-full md:w-1/3 px-3">
+        <div class="w-full px-3">
           <label
             class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
             :for="description"
@@ -70,7 +70,7 @@ function submit() {
             placeholder="Dodaj opis"
           />
         </div>
-        <div class="w-full md:w-1/3 px-3">
+        <div class="w-full px-3">
           <label
             class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
             :for="state"
